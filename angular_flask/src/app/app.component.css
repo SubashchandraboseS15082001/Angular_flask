@@ -1,0 +1,11 @@
+.container{
+    background-color: #3498DB;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+div{
+    padding: 15px;
+    color: white;
+    font-family: Arial;
+}

@@ -1,0 +1,14 @@
+<form class="data-set" (ngSubmit)="onSubmit()">
+    <div class="top">
+        <label for="input-data">Upload Your Dataset in CSV file format</label>
+    </div>
+    <div class="input-here">
+        <input type="file" name="file" enctype = "multipart/form-data" id="file" (change)="getFile($event)" class="input-data-here" ngModel>
+    </div>
+    <div class="btn-sub">
+        <button class="btn">Upload</button>
+    </div>
+    <div class="btn-sub">
+        <button class="btn" routerLink="/signin" routerActiveLink="active">Logout</button>
+    </div>
+</form>

@@ -1,0 +1,26 @@
+<body>
+  <div class="login">
+    <div class="login-screen">
+      <div class="app-title">
+        <h1>Login</h1>
+      </div>
+
+      <form #userPost="ngForm" class="login-form" (ngSubmit)="onSubmit(userPost.value)">
+        <div class="control-group">
+        <input type="email" class="login-field" name="email" placeholder="email" id="email" ngModel>
+        <label class="login-field-icon fui-user" for="email"></label>
+        </div>
+
+        <div class="control-group">
+        <input type="password" class="login-field" name="password" placeholder="password" id="password" ngModel>
+        <label class="login-field-icon fui-lock" for="password"></label>
+        </div>
+
+        <input class="btn btn-primary btn-large btn-block" value="Login" type="submit" >
+        <p>Not Registered? <a class="login-link" routerLink="/signup" routerLinkActive="active">Click Here</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+
+<!-- routerLink="/main" routerLinkActive="active" -->

@@ -1,0 +1,42 @@
+form{
+    text-align: center;
+    margin: 10% 25%;
+    font-size: 20px;
+}
+.top{
+    font-weight: 800;
+    font-style: italic;
+    margin: 0 0 20px 0;
+    color: gray;
+    font-size: 30px;
+}
+.btn {
+    border: 2px solid transparent;
+    background: #0116ff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 250px;
+  }
+  
+  .btn:hover {
+    background-color: #2980B9;
+  }
+  .input-data-here{
+    text-align: center;
+    background-color: rgb(47, 142, 244);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+    width: 230px;
+    margin: 40px 0 0 0;
+    cursor: pointer;
+  }
+  .btn-sub{
+    text-align: center;
+    justify-content: center;
+    margin: 5% 0 0 0;
+  }

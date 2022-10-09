@@ -1,0 +1,36 @@
+<body>
+    <div class="signup">
+      <div class="signup-screen">
+        <div class="app-title">
+          <h1>Feed Your Input</h1>
+        </div>
+  
+        <form #userPost="ngForm" class="signup-form" (ngSubmit)="onSubmit(userPost.value)">
+          <div class="control-group">
+          <input type="text" class="signup-field" name="television" placeholder="Television" id="television" ngModel>
+          <label class="signup-field-icon fui-user" for="television"></label>
+          </div>
+  
+          <div class="control-group">
+          <input type="text" class="signup-field" name="radio" placeholder="Radio" id="radio" ngModel>
+          <label class="signup-field-icon fui-lock" for="radio"></label>
+          </div>
+
+          <div class="control-group">
+            <input type="text" class="signup-field" name="newspaper" placeholder="NewsPaper" id="newspaper" ngModel>
+            <label class="signup-field-icon fui-lock" for="newspaper"></label>
+            </div>
+  
+          <input type="submit" class="btn btn-primary btn-large btn-block" value="Feed Data">
+          </form>
+      </div>
+    </div>
+  </body>
+
+  <br><br>
+
+  <h1 class="predicted">{{value_dis}}{{predicted_val}}</h1>
+  <br>
+  <h1 class="predicted"><a href="https://app.powerbi.com/groups/9d7a0ccf-77c3-4e6a-aaea-d0236f97e36d/reports/59222dec-0c96-4f49-ac39-1cb17a9725c9/ReportSection">{{value}}</a></h1>
+
+  <!-- routerLink="/main" routerLinkActive="active" -->
